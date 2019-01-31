@@ -66,7 +66,7 @@ def get_average_age_for_season(data, season)
       if x == "age"
         age_array << x[1]
       end
-
+binding.pry
     end
 
 
