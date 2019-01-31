@@ -67,6 +67,6 @@ def get_average_age_for_season(data, season)
       end
     end
   end
-  age_array.map! { |i| i.to_f }
+  average = age_array.sum.fdiv(arr.size)
 binding.pry
 end
