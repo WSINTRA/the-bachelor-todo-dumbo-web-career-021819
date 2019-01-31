@@ -45,7 +45,7 @@ def get_occupation(data, hometown)
   data.each do |k,v|
     v.each do |x|
       if x["hometown"] == hometown
-        name = x["name"]
+        name = x["occupation"]
       #binding.pry
     end
     end
