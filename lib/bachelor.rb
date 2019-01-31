@@ -69,7 +69,7 @@ def get_average_age_for_season(data, season)
   end
   count =0
   average = 0
-  age_array.map! { |i| i.to_i }
+  age_array.map! { |i| i.to_f }
   age_array.each do |x|
     count += x
     average = (count/age_array.length)
