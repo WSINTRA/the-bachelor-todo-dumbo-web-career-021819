@@ -46,6 +46,9 @@ def get_occupation(data, hometown)
     v.each do |x|
       if x["hometown"] == hometown
         name = x["occupation"]
+        if name == "Journalist"
+          return name
+        end
       #binding.pry
     end
     end
