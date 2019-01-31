@@ -73,5 +73,5 @@ def get_average_age_for_season(data, season)
     count += x.to_f
     average = (count/age_array.length)
   end
-    average
+    average.to_i
 end
