@@ -67,6 +67,6 @@ def get_average_age_for_season(data, season)
       end
     end
   end
-  array.map! { |i| i.to_i }
+  age_array.map! { |i| i.to_i }
 binding.pry
 end
